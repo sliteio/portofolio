@@ -416,6 +416,7 @@ nav a:hover {
 .project-grid {
   display: flex;
   padding: 2rem 0;
+  overflow-x: scroll;
   gap: 1rem; /* Adjust the gap between project cards */
 }
 
