@@ -38,20 +38,6 @@ body {
 }
 
 /* Responsive adjustments */
-@media (max-width: 1200px) {
-  .container {
-    max-width: 1200px; /* Adjust max-width for medium screens */
-    padding: 0 1.5rem; /* Reduce padding */
-  }
-}
-
-@media (max-width: 992px) {
-  .container {
-    max-width: 800px; /* Further adjust max-width for smaller screens */
-    padding: 0 1rem; /* Reduce padding further */
-  }
-}
-
 @media (max-width: 768px) {
   .container {
     max-width: 100%; /* Full width for mobile screens */
