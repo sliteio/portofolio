@@ -40,7 +40,7 @@ body {
 /* Responsive adjustments */
 @media (max-width: 1200px) {
   .container {
-    max-width: 1000px; /* Adjust max-width for medium screens */
+    max-width: 1200px; /* Adjust max-width for medium screens */
     padding: 0 1.5rem; /* Reduce padding */
   }
 }
