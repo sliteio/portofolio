@@ -818,6 +818,7 @@ nav a:hover {
 .footer-social {
   flex: 1;
   margin: 0 1rem;
+  text-align: center;
 }
 
 .footer-info h3,
