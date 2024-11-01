@@ -814,13 +814,15 @@ nav a:hover {
 }
 
 .footer-info,
-.footer-links,
 .footer-social {
   flex: 1;
   margin: 0 1rem;
 }
+
 .footer-links{
-  text-align: center:
+    flex: 1;
+  margin: 0 1rem;
+  text-align: center;
 }
 
 .footer-info h3,
