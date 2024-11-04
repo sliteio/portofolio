@@ -19,6 +19,9 @@ mobileMenuBtn.addEventListener("click", () => {
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
+    navUl.classList.toggle("active");
+    mobileMenuBtn.querySelector("i").classList.toggle("fa-bars");
+    mobileMenuBtn.querySelector("i").classList.toggle("fa-times");
     document.querySelector(this.getAttribute("href")).scrollIntoView({
       behavior: "smooth",
     });
