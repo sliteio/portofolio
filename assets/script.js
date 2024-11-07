@@ -4,11 +4,11 @@ AOS.init({
   once: true,
   offset: 50,
 });
-// Loader
-window.addEventListener("load", () => {
-  const loader = document.querySelector(".loader");
-  loader.classList.add("hidden");
-});
+// // Loader
+// window.addEventListener("load", () => {
+//   const loader = document.querySelector(".loader");
+//   loader.classList.add("hidden");
+// });
 
 // Mobile menu
 const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
