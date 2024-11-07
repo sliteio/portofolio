@@ -1,4 +1,9 @@
-
+// Initialize AOS
+AOS.init({
+  duration: 800,
+  once: true,
+  offset: 50,
+});
 // Loader
 window.addEventListener("load", () => {
   const loader = document.querySelector(".loader");
