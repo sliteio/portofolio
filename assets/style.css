@@ -26,7 +26,6 @@ body {
   background: var(--light);
   color: var(--dark);
   line-height: 1.6;
-  overflow-x:hidden;
 }
 
 /* Container */
@@ -489,6 +488,7 @@ nav a:hover {
 /* Projects Section */
 .project-grid {
   display: flex;
+  max-width: 93vw;
   overflow-x: scroll;
   padding: 2rem 0;
   gap: 1rem; /* Adjust the gap between project cards */
@@ -702,12 +702,12 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  max-width: 1000px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .contact-info {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .contact-info h2 {
@@ -724,6 +724,7 @@ nav a:hover {
   background: white;
   border-radius: 0.5rem;
   box-shadow: var(--card-shadow);
+  font-size: 15px;
 }
 
 .contact-item i {
